@@ -234,6 +234,8 @@ body{
     &:nth-child(2){
       transform: rotate(405deg);
       border-color: lemonchiffon;
+      position: absolute;
+      top: 14px;
     }
     &:last-child{
       position: absolute;
