@@ -23,6 +23,7 @@ body {
   width: 100%;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
+  background-color: black;
   color: white;
   padding: 20px;
   text-transform: uppercase;
@@ -315,6 +316,8 @@ body {
   -webkit-transform: rotate(405deg);
           transform: rotate(405deg);
   border-color: lemonchiffon;
+  position: absolute;
+  top: 14px;
 }
 
 .triggered div:last-child {
