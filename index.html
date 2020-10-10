@@ -208,17 +208,20 @@
       let skillPosition = skill.offsetHeight/2 + skill.offsetTop
       if(skillPosition<screenBottom && skillPosition>screenTop){
         skill.classList.add('slide-in')
-      }else{
-        skill.classList.remove('slide-in')
       }
+      // else{
+      //   skill.classList.remove('slide-in')
+      // }
     })
     projects.forEach(project=>{
       let projectPosition = project.offsetHeight/2 + project.offsetTop
       if(projectPosition<screenBottom && projectPosition>screenTop){
         project.classList.add('slide-in')
-      }else{
-        project.classList.remove('slide-in')
       }
+      // else
+      // {
+      //   project.classList.remove('slide-in')
+      // }
     })
   }
   function sectionScroll(e){
