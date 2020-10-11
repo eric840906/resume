@@ -60,14 +60,10 @@ body {
 }
 
 .name-card {
-  height: 91vh;
+  height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.life-pic {
-  margin: 8%;
 }
 
 .social-media {
@@ -92,6 +88,10 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.sections .life-pic {
+  position: relative;
 }
 
 .sections .about-text {
