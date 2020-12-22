@@ -113,6 +113,11 @@ body{
       }
     }
   }
+  .project-deck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .project-block{
     position: relative;
     max-width: 359px;

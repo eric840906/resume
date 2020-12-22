@@ -31,7 +31,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <img src="https://scontent.ftpe8-1.fna.fbcdn.net/v/t1.0-1/p200x200/14705668_702603469891178_1732987954284912079_n.jpg?_nc_cat=108&_nc_sid=7206a8&_nc_ohc=-ufYJif7kRsAX-fK1kW&_nc_ht=scontent.ftpe8-1.fna&tp=6&oh=7368a4aa165137e9a3bbeaea5a15971b&oe=5FA35BAB" alt="" class="img-fluid profile-pic">
+          <img src="./topPic.png" alt="" class="img-fluid profile-pic">
           <div class="social-media">
             <a href="https://github.com/eric840906"><i class="fab fa-github"></i></a>
             <a href="https://www.facebook.com/profile.php?id=100004245940194"><i class="fab fa-facebook"></i></a>
@@ -51,7 +51,7 @@
       <div class="row justify-content-between">
         <div class="col-md text-center life-pic">
           <div></div>
-          <img class="img-fluid" src="https://media-exp1.licdn.com/dms/image/C5103AQFeyvcAweBJ6g/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=A-1WoLz_vRCTKGaOjACM_5tp4oMScIyCNrAzZExyStw" alt=""></div>
+          <img class="img-fluid" src="./photo.jpg" alt=""></div>
         <div class="col-md about-text">
           <h1>About</h1>
           <p>熱愛生活、持續追求挑戰的工程師，於2020年4月辭去半導體業的工程師工作後投入轉戰軟體領域的準備，目前持續自學精進前端技術並準備轉職中</p>
@@ -113,7 +113,8 @@
   </section>
   <section class="sections justify-content-center">
     <div class="col-md-12 text-center"><h1>Projects</h1></div>
-      <div class="project-block slide-right">
+    <div class="project-deck">
+      <div class="col-md-4 project-block slide-right">
         <div class="project-pic"><img class="img-fluid" src="./maskmap.png" alt=""></div>
           <h4 class="project-title">Mask Map</h4>
           <div class="skill-used">
@@ -126,7 +127,7 @@
             <a href="https://eric840906.github.io/javascript-practice-maskMap/">Demo</a><a href="https://github.com/eric840906/javascript-practice-maskMap">Repo</a>
           </div>
       </div>
-      <div class="project-block slide-down">
+      <div class="col-md-4 project-block slide-down">
         <div class="project-pic"><img class="img-fluid" src="./icecream.png" alt=""></div>
           <h4 class="project-title">Ice cream shop</h4>
           <div class="skill-used">
@@ -134,12 +135,12 @@
             <div>JQuery</div>  
             <div>SCSS</div>
           </div>
-          <div class="project-desc">學習Vue後嘗試製作的店商網站，有使用vue router、購物車API和留言板API、以及自製優惠券翻卡功能</div>
+          <div class="project-desc">學習Vue後嘗試製作的電商網站，有使用vue router、購物車API和留言板API、以及自製優惠券翻卡功能</div>
           <div class="project-links">
             <a href="https://eric840906.github.io/vuecli3Project1/#/">Demo</a><a href="https://github.com/eric840906/vuecli3Project1">Repo</a>
           </div>
       </div>
-      <div class="project-block slide-down">
+      <div class="col-md-4 project-block slide-down">
         <div class="project-pic"><img class="img-fluid" src="./WHelper.png" alt=""></div>
           <h4 class="project-title">WHelper</h4>
           <div class="skill-used">
@@ -148,12 +149,12 @@
             <div>SCSS</div>
           </div>
           <div class="project-desc">靈感來自自己平常用來記錄飲食的Excel檔，以能在手機上方便使用為目標，有計算並記錄個人每日所需要的營養素及熱量、菜單規劃、pie chart飲食分析等功能，
-            菜單部分是利用Ajax串接取得、個人營養的部分則是透過簡單的問券形式紀錄</div>
+            菜單部分是利用Ajax串接取得、個人營養的部分則是透過簡單的問卷形式紀錄</div>
           <div class="project-links">
             <a href="https://eric840906.github.io/WeightHelper/#/">Demo</a><a href="https://github.com/eric840906/WeightHelper">Repo</a>
           </div>
       </div>
-      <div class="project-block slide-left">
+      <div class="col-md-4 project-block slide-left">
         <div class="project-pic"><img class="img-fluid" src="./practice1.png" alt=""></div>
           <h4 class="project-title">切版練習</h4>
           <div class="skill-used">
@@ -166,6 +167,21 @@
             <a href="https://eric840906.github.io/layoutPractice1/">Demo</a><a href="https://github.com/eric840906/layoutPractice1">Repo</a>
           </div>
       </div>
+      <div class="col-md-4 project-block slide-left">
+        <div class="project-pic"><img class="img-fluid" src="./dashboard.png" alt=""></div>
+          <h4 class="project-title">Dashboard切版</h4>
+          <div class="skill-used">
+            <div>Vue.js</div>
+            <div>Javascript</div>  
+            <div>SCSS</div>
+          </div>
+          <div class="project-desc">主要練習vue的custom directive、router規劃、自製checkbox和chart.js的使用，還有練習一些對UI和顏色的感覺</div>
+          <div class="project-links">
+            <a href="https://eric840906.github.io/dashboardPractice/#/">Demo</a><a href="https://github.com/eric840906/dashboardPractice">Repo</a>
+          </div>
+      </div>
+    </div>
+      
                   
   </section>
   <footer id="footer" class="sections mb-0">
